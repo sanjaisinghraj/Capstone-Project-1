@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Resume</title>
+
+  <!-- Simple in‑page styling to keep things neat -->
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 40px auto;
+      max-width: 850px;
+      line-height: 1.6;
+      color:#333;
+    }
+    h1,h2{
+      color:#2c3e50;
+      margin-bottom: .3em;
+    }
+    h1{
+      font-size:2.2rem;
+      border-bottom:2px solid #2c3e50;
+      padding-bottom:.4em;
+    }
+    img{
+      float:right;
+      border-radius:50%;
+      width:150px;
+      height:150px;
+      object-fit:cover;
+      margin-left:20px;
+    }
+    ul, ol{
+      margin-top:.3em;
+    }
+    nav ul{
+      list-style:none;
+      padding-left:0;
+    }
+    nav li{
+      display:inline-block;
+      margin-right:15px;
+    }
+    nav a{
+      text-decoration:none;
+      color:#0d6efd;
+    }
+    footer{
+      margin-top:50px;
+      padding-top:10px;
+      border-top:1px solid #aaa;
+      text-align:center;
+      font-size:.9rem;
+      color:#666;
+    }
+    /* Clearfix for floated image */
+    .clearfix::after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======= NAME & PHOTO ======= -->
+  <section class="clearfix">
+    <h1>John&nbsp;Doe</h1>
+    <img src="profile.jpg" alt="Profile photo of John Doe">
+    <p><strong>Summary&nbsp;/ Objective</strong><br>
+      Motivated full‑stack developer with 3+ years’ experience designing and building
+      scalable web applications. Seeking to leverage deep knowledge of JavaScript,
+      cloud deployment, and user‑centric design to deliver elegant solutions for an
+      innovative tech company.</p>
+  </section>
+
+  <!-- ======= EDUCATION ======= -->
+  <h2>Education</h2>
+  <ul>
+    <li><strong>M.Sc. Computer Science</strong> — University of TechVille (2021 – 2023)</li>
+    <li><strong>B.Sc. Computer Science</strong> — XYZ University (2017 – 2021)</li>
+    <li><strong>High School Diploma</strong> — ABC High School (2015 – 2017)</li>
+  </ul>
+
+  <!-- ======= WORK EXPERIENCE ======= -->
+  <h2>Work&nbsp;Experience</h2>
+  <ul>
+    <li>
+      <strong>Full‑Stack Developer</strong> — BrightApps Inc. (2023 – Present)
+      <ul>
+        <li>Built and maintained micro‑services using Node.js, Express, and MongoDB.</li>
+        <li>Collaborated with designers to create responsive, accessible UIs.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Front‑End Intern</strong> — CodeLab (Summer 2022)
+      <ul>
+        <li>Implemented e‑commerce modules with React and Tailwind CSS.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- ======= SKILLS ======= -->
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML5, CSS3, JavaScript (ES2022+)</li>
+    <li>React, Node.js, Express, RESTful APIs</li>
+    <li>SQL &amp; NoSQL databases (PostgreSQL, MongoDB)</li>
+    <li>Responsive / mobile‑first design</li>
+    <li>Version control (Git &amp; GitHub)</li>
+    <li>Agile &amp; Scrum methodology</li>
+  </ul>
+
+  <!-- ======= AWARDS & CERTIFICATIONS ======= -->
+  <h2>Awards &amp; Certifications</h2>
+  <ul>
+    <li>AWS Certified Cloud Practitioner (2023)</li>
+    <li>Google UX Design Professional Certificate (2022)</li>
+    <li>Dean’s List — XYZ University (2019 – 2021)</li>
+  </ul>
+
+  <!-- ======= NAVIGATION TO OTHER PAGES ======= -->
+  <nav>
+    <h2>Explore&nbsp;More</h2>
+    <ul>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <!-- add more pages if you like -->
+    </ul>
+  </nav>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    &copy; 2025 John Doe. All rights reserved.  
+    <br><em>This resume website is for demonstration purposes only.</em>
+  </footer>
+
+</body>
+</html>
